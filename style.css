@@ -1,0 +1,430 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+.dropdown{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dropdown-button{
+    margin: 2%;
+    font-size: 2rem;
+}
+.icon-bar{
+    font-size: 30px;
+    margin: 2%;
+}
+.dropdown-menu {
+    display: none;
+   color: #1679AB;
+}
+
+.dropdown-menu li {
+    padding: 5px;
+   
+}
+
+.dropdown-menu li a {
+    display: block;
+    }
+
+.content {
+    text-align: center;
+    font-size: 1.5rem;
+   margin-top: 10% !important;
+   width: 98%;
+}
+
+.paragraph {
+    text-align: center;
+    font-size: 1rem;
+    margin: 5%;
+    width: 96%;
+    color: rgba(0, 0, 0, 0.438);
+}
+
+.btn {
+    margin-bottom: 5%;
+
+}
+
+button {
+    background-color: #5DEBD7;
+    border: none;
+    border-radius: 9px;
+    padding: 10px 50px;
+    margin: 0px 10px;
+    text-align: center;
+    width: 95%;
+}
+
+.btn2 {
+    background-color: transparent;
+    border: 1px solid grey;
+}
+
+.image {
+    width: 90%;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5% !important;
+    margin: auto;
+    border: none;
+    border-top-left-radius: 999px;
+    border-top-right-radius: 999px;
+}
+
+.image img {
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20%;
+}
+
+.Exchanges {
+    background-color: rgba(128, 128, 128, 0.281);
+    color: rgba(128, 128, 128, 0.541);
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+   margin: auto;
+}
+
+
+.Exchanges div {
+    width: 48%;
+    display: flex;
+
+}
+#why{
+    margin-top: 5% !important;
+  
+}
+.bottom-container h4{
+    margin-bottom: 5% !important;
+margin-left: 5%;
+}
+.world{
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+
+.gadget-man {
+    width: 90%;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin: auto;
+    border-bottom-left-radius: 999px;
+    border-bottom-right-radius: 999px;
+}
+
+.gadget-man img {
+    width: 50%;
+    margin: auto;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20%;
+
+}
+.buy-crypto{
+    margin-left: 5%;
+}
+.buy-crypto p{
+    font-size: 1.2rem;
+    margin-bottom: 5%;
+}
+.buy-crypto h2{
+    font-size: 2rem;
+}
+.token {
+    width: 100%;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.bitcoin {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    box-shadow: 5px 5px 10px 0px #000000;
+    margin-bottom: 5%;
+}
+
+.trade {
+    color: white;
+    cursor: pointer;
+    margin-top: 10%;
+}
+
+.trading-phone {
+    width: 100%;
+    margin-top: 10%;
+}
+
+.trading-phone img {
+    border: none;
+    border-radius: 30px 30px 30px 30px;
+    margin: 5%;
+    width: 90%;
+}
+
+.bottom-container2 {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    header {
+        margin: 0;
+        background-color: #C5FF95;
+    }
+.icon-bar{
+    display: none;
+}
+    .dropdown {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .dropdown-menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+       
+    }
+
+    .dropdown-menu li {
+        text-align: center;
+        justify-content: space-between;
+        list-style-type: none;
+        color: #074173;
+       cursor: pointer;
+       font-size: 1.3em;
+    }
+    .hope {
+        background-color: rgba(128, 128, 128, 0.329);
+        padding: 2%;
+    }
+
+    .container {
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 49% 49%;
+        grid-template-rows: 20vh 20vh 15vh 30vh;
+        row-gap: 30px;
+
+    }
+
+    .con {
+        margin: auto;
+        height: auto;
+        width: 90%;
+    }
+
+    .content {
+        text-align: center;
+        font-size: 27px;
+        grid-row: 1/2;
+        text-align: left !important;
+        line-height: 50px;
+        width: 100%;
+
+    }
+
+    .image {
+        grid-column: 2/3;
+        grid-row: 1/5;
+        height: 90%;
+        width: 100%;
+    }
+
+    .image img {
+        width: 70%;
+        height: 50%;
+    }
+
+    .paragraph {
+        color: black;
+        font-size: 19px;
+        grid-row: 2/3;
+        text-align: left !important;
+        width: 70%;
+        margin-right: 30%;
+    }
+
+    .Exchanges {
+        grid-row: 4/5;
+        margin: 0;
+        width: 100%;
+        background: none;
+    }
+
+    .binance img {
+        width: 20%;
+    }
+
+    .moneytot img {
+        width: 20%;
+        height: 70%;
+        padding-top: 5%;
+    }
+.btn{
+    background-color: #074173;
+    color: white;
+}
+    .bottns {
+        grid-row: 3/4;
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        margin-top: 5%;
+    }
+
+    .bottns button {
+        width: 100%;
+        margin: 0;
+        padding: 7%;
+    }
+
+    .bottns div {
+        width: 49%;
+    }
+.big-cont{
+      background-color: rgba(128, 128, 128, 0.123);
+        padding: 2%;
+}
+    .bottom-container {
+        display: none;
+    }
+
+    .bottom-container2 {
+        display: block;
+        margin: auto;
+    }
+
+    .first-layout {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+        width: 100%;
+
+    }
+
+    .whyus {
+        width: 50%;
+         margin: auto !important; 
+         /* padding-left: 5%; */
+
+        
+    }
+
+    .whyus h3 {
+        color: #074173;
+        font-size: 25px;
+        margin-top: 10%;
+        margin-bottom: 3%;
+       
+    }
+
+    .whyus h2 {
+        color: black;
+        width: 140%;
+        text-transform: capitalize;
+        text-align: initial;
+         padding-right: 55%; 
+        font-size: 2.5em;
+    }
+
+    .lorem {
+        width: 50%;
+        margin-top: 5%;
+        text-align: justify;
+        font-size: 1.3em;
+    }
+
+    .second-layout {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        margin: auto;
+    }
+
+    .dollar-man {
+        width: 50%;
+        height: 100%;
+        margin: auto;
+    }
+
+    .dollar-man img {
+        width: 70%;
+        background-color: black;
+        height: 85vh;
+        border: none;
+        margin-top: 15%;
+        object-fit: cover;
+        border-bottom-left-radius: 999px;
+        border-bottom-right-radius: 999px;
+    }
+
+    .benefit {
+        width: 50%;
+        margin-top: 10%;
+        text-transform: capitalize;
+
+    }
+
+    .benefit h3 {
+        font-size: 29px;
+       color: #074173;
+       margin-bottom: 3%;
+
+    }
+
+    .benefit h2 {
+        font-size: 2.5rem;
+        width: 65%;
+    }
+
+    .list {
+        list-style-type: none;
+        list-style: url(./list\ type\ red.png);
+    }
+
+    .benefit1 {
+        margin-top: 10%;
+       font-size: 1.2rem;
+    }
+
+    #trade-now {
+        color: white ;
+        margin: 5%;
+        font-size: 1.3em;
+        margin-bottom: 20%;
+        background-color: #074173;
+        margin-right: 20% !important;
+        
+        
+    }
+
+    .list a {
+        text-decoration: none;
+        color: blue;
+
+    }
+
+    .list li a :hover {
+        cursor: copy;
+    }
+}
